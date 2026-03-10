@@ -1,0 +1,326 @@
+/* RESET */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+
+/* BODY */
+
+body{
+background:#0f0f0f;
+color:white;
+line-height:1.6;
+}
+
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 30px;
+background:black;
+position:relative;
+}
+
+/* LOGO */
+
+.logo{
+display:flex;
+align-items:center;
+gap:8px;
+font-size:26px;
+font-weight:bold;
+color:gold;
+}
+
+.logo img{
+height:40px;
+}
+
+
+/* NAVIGATION */
+
+nav{
+display:flex;
+gap:18px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-size:16px;
+transition:0.3s;
+}
+
+nav a:hover{
+color:gold;
+}
+
+
+/* HAMBURGER */
+
+.menu-toggle{
+display:none;
+font-size:28px;
+cursor:pointer;
+color:white;
+}
+
+
+/* MARQUEE */
+
+.marquee{
+background:red;
+color:white;
+padding:8px;
+font-weight:bold;
+text-align:center;
+}
+
+
+/* SECTIONS */
+
+.section{
+max-width:1000px;
+margin:auto;
+padding:60px 20px;
+}
+
+
+/* CARDS */
+
+.card{
+background:#1c1c1c;
+padding:20px;
+border-radius:10px;
+margin-top:20px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.03);
+}
+
+
+/* BUTTONS */
+
+.btn{
+background:red;
+color:white;
+border:none;
+padding:14px 25px;
+border-radius:6px;
+cursor:pointer;
+font-size:16px;
+margin-top:10px;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#cc0000;
+}
+
+
+/* IMAGES */
+
+img{
+max-width:100%;
+border-radius:10px;
+margin-top:10px;
+}
+
+
+/* FOOTER */
+
+footer{
+background:black;
+text-align:center;
+padding:25px;
+margin-top:40px;
+}
+
+
+/* FAQ */
+
+.faq-btn{
+width:100%;
+background:#222;
+color:white;
+border:none;
+padding:15px;
+text-align:left;
+cursor:pointer;
+margin-top:5px;
+}
+
+.faq-content{
+display:none;
+background:#333;
+padding:12px;
+}
+
+
+/* POPUP */
+
+.popup{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.8);
+display:none;
+justify-content:center;
+align-items:center;
+z-index:999;
+}
+
+.popup-content{
+background:#1c1c1c;
+padding:30px;
+border-radius:10px;
+text-align:center;
+position:relative;
+max-width:400px;
+}
+
+.close{
+position:absolute;
+top:10px;
+right:15px;
+font-size:22px;
+cursor:pointer;
+color:red;
+}
+
+
+/* FLOATING TELEGRAM */
+
+.telegram-float{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#0088cc;
+color:white;
+padding:15px 20px;
+border-radius:40px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+
+
+/* MOBILE RESPONSIVE */
+
+@media(max-width:768px){
+
+.menu-toggle{
+display:block;
+}
+
+@media(max-width:768px){
+
+.menu-toggle{
+display:block;
+}
+
+@media(max-width:768px){
+
+.menu-toggle{
+display:block;
+}
+
+/* Mobile Navigation */
+
+nav{
+display:flex;
+flex-direction:column;
+position:fixed;
+top:0;
+right:-260px;
+width:260px;
+height:100vh;
+background:#000;   /* solid black */
+padding:70px 20px;
+transition:0.3s;
+gap:15px;
+z-index:1000;
+}
+
+nav a{
+padding:10px 0;
+border-bottom:1px solid #333;
+color:white;
+}
+
+nav.active{
+right:0;
+}
+
+}
+
+}
+/* Logo size */
+
+.logo{
+font-size:22px;
+}
+
+/* Section padding */
+
+.section{
+padding:40px 15px;
+}
+
+}
+
+
+/* SMALL SCREEN */
+
+@media(max-width:600px){
+
+.hero-buttons{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:10px;
+}
+
+.btn{
+width:80%;
+text-align:center;
+}
+
+}
+
+
+/* CONTACT PAGE LOGO COLOR */
+
+.contact-page .logo{
+color:white;
+}
+
+nav{
+background:black;
+}
+
+/* Privacy Policy Link */
+
+.privacy-link{
+display:block;
+margin-top:10px;
+color:red;
+text-decoration:none;
+font-weight:bold;
+}
+
+.privacy-link:hover{
+text-decoration:underline;
+}
+

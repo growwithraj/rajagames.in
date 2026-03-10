@@ -1,0 +1,346 @@
+/* HERO SECTION */
+
+.hero{
+text-align:center;
+padding:120px 20px;
+background:linear-gradient(45deg,#000,#1a1a1a);
+}
+
+.hero h1{
+font-size:42px;
+color:gold;
+margin-bottom:15px;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+font-size:18px;
+color:#ccc;
+}
+
+
+
+/* CAROUSEL */
+
+.carousel{
+max-width:800px;
+margin:40px auto;
+position:relative;
+}
+
+.slide{
+display:none;
+width:100%;
+border-radius:10px;
+box-shadow:0 0 15px rgba(0,0,0,0.6);
+}
+
+.slide.active{
+display:block;
+}
+
+
+
+/* HOME SPECIAL CARD */
+
+.home-highlight{
+background:#151515;
+padding:30px;
+border-radius:12px;
+margin-top:30px;
+border:1px solid #333;
+}
+
+.home-highlight h2{
+color:gold;
+margin-bottom:10px;
+}
+
+
+
+/* TELEGRAM SECTION */
+
+.telegram-box{
+background:#101820;
+padding:30px;
+border-radius:10px;
+text-align:center;
+margin-top:30px;
+}
+
+.telegram-box h2{
+color:#00bfff;
+margin-bottom:10px;
+}
+
+.telegram-box p{
+color:#ccc;
+max-width:700px;
+margin:auto;
+}
+
+
+
+/* HOME ANIMATION */
+
+.card{
+animation:fadeUp 0.8s ease;
+}
+
+@keyframes fadeUp{
+
+from{
+opacity:0;
+transform:translateY(30px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+
+
+/* MOBILE OPTIMIZATION */
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:30px;
+}
+
+.hero p{
+font-size:16px;
+}
+
+.carousel{
+margin:20px auto;
+}
+
+}
+
+.hero-buttons{
+display:flex;
+justify-content:center;
+gap:20px;
+margin-top:20px;
+}
+
+@media (max-width:600px){
+
+.hero-buttons{
+flex-direction:column;
+align-items:center;
+}
+
+.btn{
+width:80%;
+text-align:center;
+}
+
+}
+
+
+header{
+width:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:10px 20px;
+box-sizing:border-box;
+}
+
+.logo{
+display:flex;
+align-items:center;
+}
+
+.hamburger{
+font-size:28px;
+cursor:pointer;
+display:block;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+.menu-toggle{
+display:none;
+font-size:28px;
+cursor:pointer;
+color:white;
+}
+
+/* Marquee */
+
+.news{
+background:#111827;
+color:#22c55e;
+padding:8px;
+font-weight:bold;
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+.menu-toggle{
+display:block;
+}
+
+nav{
+display:none;
+flex-direction:column;
+background:#020617;
+position:absolute;
+top:65px;
+right:0;
+width:200px;
+padding:20px;
+}
+
+nav a{
+margin:10px 0;
+}
+
+nav.active{
+display:flex;
+}
+
+}
+
+
+.faq-btn {
+  width: 100%;
+  background: #222;           /* question button background */
+  color: white;
+  border: none;
+  padding: 15px;
+  text-align: left;
+  cursor: pointer;
+  margin-top: 5px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.faq-btn:hover {
+  background: #333;           /* hover effect */
+}
+
+.faq-content {
+  display: none;
+  background: #111;           /* DIFFERENT background for answer */
+  padding: 15px 20px;
+  border-radius: 0 0 6px 6px; /* rounded bottom only */
+  margin-bottom: 10px;
+  color: #f0f0f0;
+  font-size: 16px;
+  line-height: 1.6;
+  transition: all 0.3s ease;
+  border-left: 4px solid red; /* optional accent to highlight answer */
+}
+
+
+/* IMAGE SLIDER SECTION */
+
+.image-slider{
+width:100%;
+padding:40px 20px;
+}
+
+.slider-container{
+max-width:1000px;
+margin:auto;
+overflow:hidden;
+position:relative;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.6);
+}
+
+/* Track */
+
+.slider-track{
+display:flex;
+transition:transform 0.6s ease;
+}
+
+/* Images */
+
+.slider-img{
+width:100%;
+flex-shrink:0;
+object-fit:cover;
+}
+
+/* Buttons */
+
+.slide-btn{
+position:absolute;
+top:50%;
+transform:translateY(-50%);
+background:rgba(0,0,0,0.6);
+color:white;
+border:none;
+font-size:28px;
+padding:10px 16px;
+cursor:pointer;
+border-radius:6px;
+}
+
+.prev{
+left:10px;
+}
+
+.next{
+right:10px;
+}
+
+.slide-btn:hover{
+background:red;
+}
+
+/* Dots */
+
+.slider-dots{
+position:absolute;
+bottom:10px;
+width:100%;
+text-align:center;
+}
+
+.slider-dots span{
+height:10px;
+width:10px;
+margin:5px;
+background:white;
+display:inline-block;
+border-radius:50%;
+cursor:pointer;
+opacity:0.5;
+}
+
+.slider-dots span.active{
+opacity:1;
+background:red;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.slider-img{
+height:auto;
+}
+
+.slide-btn{
+font-size:22px;
+}
+
+}

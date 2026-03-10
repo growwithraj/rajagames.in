@@ -1,0 +1,62 @@
+/* PRIVACY PAGE STYLING */
+
+.privacy-page body,
+.privacy-section{
+background:#0f0f0f;
+color:white;
+font-family:Arial, sans-serif;
+line-height:1.7;
+}
+
+.privacy-section h1{
+text-align:center;
+font-size:32px;
+color:gold;
+margin-bottom:20px;
+}
+
+.privacy-section h2{
+font-size:22px;
+color:red;
+margin-top:20px;
+margin-bottom:10px;
+}
+
+.privacy-section p,
+.privacy-section li{
+font-size:16px;
+margin-bottom:10px;
+}
+
+.privacy-section ul{
+margin-left:20px;
+}
+
+.privacy-section a{
+color:red;
+text-decoration:none;
+}
+
+.privacy-section a:hover{
+text-decoration:underline;
+}
+
+.footer .privacy-link{
+color:red;
+display:block;
+margin-top:8px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.footer .privacy-link:hover{
+text-decoration:underline;
+}
+
+.marquee{
+background:red;
+color:white;
+padding:8px;
+text-align:center;
+font-weight:bold;
+}
