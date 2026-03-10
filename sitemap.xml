@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://yourwebsite.com/index.html</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- Images -->
+    <image:image>
+      <image:loc>https://yourwebsite.com/images/logo.png</image:loc>
+      <image:caption>Raja Games Logo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://yourwebsite.com/images/p1.jpg</image:loc>
+      <image:caption>Latest Prediction Screenshot 1</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://yourwebsite.com/images/p2.jpg</image:loc>
+      <image:caption>Latest Prediction Screenshot 2</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://yourwebsite.com/images/p3.jpg</image:loc>
+      <image:caption>Latest Prediction Screenshot 3</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Prediction Page -->
+  <url>
+    <loc>https://yourwebsite.com/prediction.html</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9>
+
+    <!-- Images -->
+    <image:image>
+      <image:loc>https://yourwebsite.com/images/prediction.png</image:loc>
+      <image:caption>Raja Games Daily Prediction Screenshot</image:caption>
+    </image:image>
+  </url>
+
+  <!-- How-To-Play Page -->
+  <url>
+    <loc>https://yourwebsite.com/how-to-play.html</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8>
+
+    <!-- Images -->
+    <image:image>
+      <image:loc>https://yourwebsite.com/images/how-to-play.png</image:loc>
+      <image:caption>How To Play Guide Screenshot</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Register Page -->
+  <url>
+    <loc>https://yourwebsite.com/register.html</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8>
+
+    <!-- Images -->
+    <image:image>
+      <image:loc>https://yourwebsite.com/images/register.png</image:loc>
+      <image:caption>Register Now Screenshot</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://yourwebsite.com/contact.html</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7>
+  </url>
+
+  <!-- Privacy Page -->
+  <url>
+    <loc>https://yourwebsite.com/privacy.html</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6>
+  </url>
+
+</urlset>

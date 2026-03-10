@@ -1,0 +1,9 @@
+# Allow all search engines to crawl the site
+User-agent: *
+Disallow: /admin/
+Disallow: /js/
+Disallow: /css/
+Disallow: /images/private/
+
+# Sitemap location
+Sitemap: https://yourwebsite.com/sitemap.xml
