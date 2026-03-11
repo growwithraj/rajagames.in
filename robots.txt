@@ -6,4 +6,5 @@ Disallow: /css/
 Disallow: /images/private/
 
 # Sitemap location
-Sitemap: https://yourwebsite.com/sitemap.xml
+
+Sitemap: https://growwithraj.github.io/rajagames.in/sitemap.xml
